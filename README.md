@@ -26,7 +26,7 @@ param(
     # Can be used for offline installation by providing a path to a Chocolatey.nupkg.
     [Parameter(Mandatory = $false)]
     [string]
-    $ChocolateyDownloadUrl = 'file:C:\OfflineInstaller\chocolatey.2.7.4.nupkg',
+    $ChocolateyDownloadUrl = 'file:C:\OfflineInstaller\chocolatey.2.7.5.nupkg',
 ```
 5. Open up PowerShell and run `install.ps1`
 
